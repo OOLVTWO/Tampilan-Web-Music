@@ -1,0 +1,62 @@
+/* Contoh CSS untuk gaya logo */
+body {
+    padding: 0;
+    margin: 0;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.isi1 {
+    font-size: 35px;
+    padding: 20px;
+    width: 597px;
+}
+
+.isi1 p {
+    font-size: 35px;
+    margin-top: -30px;
+}
+
+.start {
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 2px 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.pertama {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
